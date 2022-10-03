@@ -42,10 +42,7 @@ nav {
           -ms-transition: 1s ease-in-out all;
           -o-transition: 1s ease-in-out all;
 }
-.dropdown:hover .main,
-.crash:hover .testing {
-  opacity: 1;
-}
+
 .linky {
   padding: 0px 30px;
   background-color: var(--active-color);
@@ -79,9 +76,11 @@ h1 {
   max-width: 35rem;
 }
 @media (max-width: 998px) {
+
   .content {
     width: 100%;
     text-align: center;
+    margin-top: 50px ;
   }
   .hero {
     display: none;
@@ -106,8 +105,6 @@ h1 {
     background-size: contain;
     text-align: center;
   }
-
-  
     .sliders {
       margin: 27px !important ;
     }
