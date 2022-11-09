@@ -28,23 +28,27 @@ nav {
 .navbar-nav .nav-link.active {
   color: var(--active-color);
 }
+.nav-link {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+}
 .nav-link:hover,
 .nav-link:focus:hover{
   color: var(--active-color);
 }
 .navbar-nav .main,
 .testing{
-            display: block;
-          opacity: 0;
-          transition: 1s ease-in-out all;
-          -webkit-transition: 1s ease-in-out all;
-          -moz-transition: 1s ease-in-out all;
-          -ms-transition: 1s ease-in-out all;
-          -o-transition: 1s ease-in-out all;
+  display: block;
+  opacity: 0;
+  transition: 1s ease-in-out all;
+  -webkit-transition: 1s ease-in-out all;
+  -moz-transition: 1s ease-in-out all;
+  -ms-transition: 1s ease-in-out all;
+  -o-transition: 1s ease-in-out all;
 }
 
 .linky {
-  padding: 0px 30px;
   background-color: var(--active-color);
   border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -752,4 +756,7 @@ footer span {
 }
 footer a {
   color: var(--active-color);
+}
+.icons {
+  height: 140px;
 }
